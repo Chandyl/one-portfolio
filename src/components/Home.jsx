@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import selfie from "../assets/selfie.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -8,12 +8,16 @@ const Home = () => {
 		<div name="home" className="h-screen w-full  bg-gray-300">
 			<div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
 				<div className="flex flex-col justify-center h-full">
-					<h2 className="text-4xl sm:text-7xl font-bold text-white">
-						I'm a Front End Web Developer
+					<h2 className="text-4xl sm:text-6xl font-bold py-7 text-white">
+						Hello,
 					</h2>
-					<p className="text-gray-500 py-4 max-w-md">
-						I love exploring and creating. I am a life-long learner and I might
-						be a little obsessed with rigatoni pizza.
+					<h2 className="text-4xl sm:text-5xl pr-12 font-bold text-white">
+						I'm Stacee Williams
+					</h2>
+					<p className="text-gray-500 py-7 max-w-md">
+						Passionate about refining my front end web development skills, I am
+						a life-long learner and I might be a little obsessed with rigatoni
+						pizza.
 					</p>
 
 					<div>
@@ -33,9 +37,9 @@ const Home = () => {
 
 				<div>
 					<img
-						src={HeroImage}
+						src={selfie}
 						alt="selfie"
-						className="rounded-2xl mx-auto w-2/3 md:w-full"
+						className="rounded-2xl my-8 mx-auto w-2/3  md:w-full"
 					/>
 				</div>
 			</div>

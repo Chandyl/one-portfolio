@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Contact = () => {
@@ -14,7 +15,7 @@ const Contact = () => {
 				</div>
 				<div className="grid lg:grid-cols-5 gap-4">
 					{/* left */}
-					<div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-purple-400 rounded-xl p-4">
+					<div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-800 rounded-xl p-4">
 						<div className="lg:p-4 h-full ">
 							<div>
 								<img
@@ -27,11 +28,15 @@ const Contact = () => {
 								<h2 className="py-2 text-gray">Stacee Williams</h2>
 								<p className="text-gray">
 									I am currently doing some freelance work while looking for a
-									full-time position .
+									full-time position. Click on the last link below if you would
+									like to download my resume.
 								</p>
 							</div>
 							<div>
-								<p className="uppercase pt-16 text-purple">Connect With Me</p>
+								<p className="pt-8 uppercase t-16 text-purple">
+									Connect With Me
+								</p>
+
 								<div className="flex items-center justify-between py-4">
 									<div className="rounded-full shadow-lg shadow-purple-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gray-300">
 										<a href="https://www.linkedin.com/in/staceewills/">
@@ -48,13 +53,18 @@ const Contact = () => {
 											<AiOutlineMail />
 										</a>
 									</div>
+									<div className="rounded-full shadow-lg shadow-purple-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gray-300">
+										<a href="/staceewresume.pdf">
+											<BsFillPersonLinesFill />
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
 					{/* right */}
-					<div className="col-span-3 w-full h-auto shadow-xl shadow-purple-400 rounded-xl lg:p-4">
+					<div className="col-span-3 w-full h-auto shadow-xl shadow-gray-800 rounded-xl lg:p-4">
 						<div className="p-4">
 							<form
 								action="https://formeezy.com/api/v1/forms/6288455b0efd5c00093cab73/submissions"
