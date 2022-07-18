@@ -11,11 +11,11 @@ const Portfolio = () => {
 			className="bg-gray-300 w-full text-gray-800 md:h-screen"
 		>
 			<div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-				<div className="pb-8">
+				<div className="pb-0">
 					<p className="text-4xl font-bold inline border-b-4 border-purple-700">
 						Portfolio
 					</p>
-					<p className="py-6">Check out some of my work</p>
+					<p className="py-4">Check out some of my work</p>
 				</div>
 				<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
 					<div

@@ -27,9 +27,9 @@ const Contact = () => {
 							<div>
 								<h2 className="py-2 text-gray">Stacee Williams</h2>
 								<p className="text-gray">
-									I am currently doing some freelance work while looking for a
-									full-time position. Click on the last link below if you would
-									like to download my resume.
+									I am currently looking for a full time customer support
+									position. My resume can be viewed or downloaded from the link
+									below.
 								</p>
 							</div>
 							<div>
@@ -54,7 +54,7 @@ const Contact = () => {
 										</a>
 									</div>
 									<div className="rounded-full shadow-lg shadow-purple-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gray-300">
-										<a href="/staceewresume.pdf">
+										<a href="/StaceeWresume.pdf">
 											<BsFillPersonLinesFill />
 										</a>
 									</div>

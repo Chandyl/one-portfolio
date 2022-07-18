@@ -8,16 +8,14 @@ const Home = () => {
 		<div name="home" className="h-screen w-full  bg-gray-300">
 			<div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
 				<div className="flex flex-col justify-center h-full">
-					<h2 className="text-4xl sm:text-6xl font-bold py-7 text-white">
+					<h2 className="text-4xl sm:text-6xl pt-24 font-bold py-7 text-white">
 						Hello,
 					</h2>
 					<h2 className="text-4xl sm:text-5xl pr-12 font-bold text-white">
 						I'm Stacee Williams
 					</h2>
 					<p className="text-gray-500 py-7 max-w-md">
-						Passionate about refining my front end web development skills, I am
-						a life-long learner and I might be a little obsessed with rigatoni
-						pizza.
+					Passionate about helping people solve technical problems and refining my front end web development skills, I am a life-long learner and when I am not glued to the computer screen, I like to spend time cooking, shopping and trying DIY projects. 
 					</p>
 
 					<div>
